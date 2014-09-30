@@ -1,0 +1,10 @@
+
+server {
+	listen 80;
+	server_name huayralinux.github.io;
+	
+	location / {
+		root /srv/huayralinux.github.io;
+		autoindex on;
+	}
+}

@@ -1,0 +1,10 @@
+
+server {
+	listen 80;
+	server_name security.debian.org;
+	
+	location / {
+		root /srv/repo-security/debian-security;
+		autoindex on;
+	}
+}

@@ -1,0 +1,10 @@
+
+server {
+	listen 80;
+	server_name repo.huayra.conectarigualdad.gob.ar;
+	
+	location / {
+		root /srv/repo-huayra;
+		autoindex on;
+	}
+}

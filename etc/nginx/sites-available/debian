@@ -1,0 +1,10 @@
+
+server {
+	listen 80;
+	server_name ftp.debian.org;
+	
+	location / {
+		root /srv/repo-debian;
+		autoindex on;
+	}
+}
